@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+	head {
+		display: none;
+	}
+	body {
+		margin: 0;
+		padding: 0;
+		width: 100vw;
+		height: 100vh;
+		button,
+		a,
+		button:focus,
+		a:focus {
+			border: none;
+			background: none;
+			text-decoration: none;
+			color: inherit;
+		}
+		#root {
+			width: 100vw;
+			min-height: 100vh;
+			display: grid;
+			justify-content: space-around;
+			align-items: center;
+			* {
+				box-sizing: border-box;
+				width: max-content;
+				font-family: 'Zen Kaku Gothic Antique', 'Poppins', 'Roboto';
+				color: inherit;
+				font-weight: 500;
+				text-decoration: none;
+			}
+			#app {
+				color: #15023a;
+				* {
+					display: grid;
+					position: relative;
+				}
+			}
+            svg, img {
+                width: 100%;
+                height: auto;
+            }
+		}
+	}
+}

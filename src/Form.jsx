@@ -32,7 +32,7 @@ function Form() {
 					/>
 					<Suffix for="rememberMe">Remember me</Suffix>
 				</div>
-				<a href="#">Change Password</a>
+				<a href="/">Change Password</a>
 			</Box>
 			<div>
 				<CheckBox
